@@ -1,0 +1,25 @@
+Color spacesuit = new Color( 195, 175, 150 );
+   
+   int sX = 100;
+   int sY = 25;
+   
+   g.setColor( spacesuit );
+   g.fillOval(sX + 60, sY, 75, 75);
+   g.setColor( Color.LIGHT_GRAY );
+   g.fillOval(sX + 70, sY + 10, 55, 55 );
+   
+   g.setColor(Color.DARK_GRAY );
+   g.drawOval(sX + 83, sY + 27, 8, 8 );
+   g.drawOval(sX + 103, sY + 27, 8, 8 );
+   g.drawLine(sX + 97, sY + 35, sX + 99, sY + 43 );
+   g.drawLine(sX + 97, sY + 43, sX + 99, sY + 43 );
+   g.drawOval(sX + 90, sY + 48, 15, 6 );
+   
+   g.setColor( Color.LIGHT_GRAY );
+   g.fillOval(sX + 120, sY, 150, 150);
+   
+   g.setColor( Color.LIGHT_GRAY );
+   g.fillOval(sX + 180, sY, 225, 225);
+   
+   g.setColor( Color.BLACK );
+   g.drawString( "David Schmidt", sX + 25, sY + 270 );
